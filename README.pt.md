@@ -16,6 +16,3 @@ Inspirado na triagem corporativa de e-mails suspeitos e prevenção contra engen
 * **Detecção de Divergência de Domínios:** Checagem entre o domínio de envio e o `Return-Path` para alertar sobre possível *spoofing*.
 * **Motor de Score de Risco:** Algoritmo condicional que pontua e classifica o risco em **BAIXO**, **MÉDIO** e **ALTO**.
 * **Sanitização de Input:** Tratamento com `htmlspecialchars()` contra injeção de scripts (XSS).
-
----
-*Desenvolvido como parte do Portfólio de Cibersegurança para vagas internacionais.*
