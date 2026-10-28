@@ -1,7 +1,7 @@
 <?php
 
 function analyzeEmailHeader($raw_header) {
-    // Sanitização inicial do input
+    
     $header = htmlspecialchars(trim($raw_header), ENT_QUOTES, 'UTF-8');
     $result = [
         'from' => 'Não identificado',
